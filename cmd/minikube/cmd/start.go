@@ -423,7 +423,7 @@ func displayVersion(version string) {
 	}
 
 	register.Reg.SetStep(register.InitialSetup)
-	out.Step(style.Happy, "{{.prefix}}minikube {{.version}} on {{.platform}}", out.V{"prefix": prefix, "version": version, "platform": platform()})
+	out.Step(style.Happy, "{{.prefix}}minikube-tonghe {{.version}} on {{.platform}}", out.V{"prefix": prefix, "version": version, "platform": platform()})
 }
 
 // displayEnviron makes the user aware of environment variables that will affect how minikube operates
